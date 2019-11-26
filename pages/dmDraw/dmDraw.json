@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "mp-navigation-bar": "../components/navigation-bar/navigation-bar",
+    "_dmbar": "../components/_dm-navigator/_dm-navigator",
+    "_dmmenu":"../components/_dm-menu-button/_dm-menu-button"
+  },
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "大米绘画"
+}

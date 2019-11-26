@@ -1,0 +1,4 @@
+<!--pages/components/_dm-menu-button/_dm-menu-button.wxml-->
+<text>pages/components/_dm-menu-button/_dm-menu-button.wxml</text>
+<mp-actionSheet bindactiontap="btnClick" show="{{showActionsheet}}" actions="{{actions}}" title="这是一个标题，可以为一行或者两行。">
+</mp-actionSheet>

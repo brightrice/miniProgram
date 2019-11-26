@@ -1,0 +1,64 @@
+/* pages/components/_dm-navigator/_dm-navigator.wxss */
+.flex-jasc{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-aic{
+  display: flex;
+  align-items: center;
+}
+.flex-jac{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar{
+  background-color: red;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+.navbarbox{
+    padding: 0 20rpx;
+}
+.navbar-left{
+  width: 160rpx;
+  height: 56rpx;
+  box-sizing: border-box;
+}
+.navbar-title{
+  width: calc(100% - 200rpx);
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  box-sizing: border-box;
+  white-space: nowrap;
+  padding-left: 20rpx;
+}
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+view {
+  display: initial;
+}

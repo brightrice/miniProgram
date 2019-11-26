@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "_dmbar": "../components/_dm-navigator/_dm-navigator"
+  },
+  "navigationBarTitleText": "大米工作室"
+}

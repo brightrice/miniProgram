@@ -1,0 +1,10 @@
+<!--pages/components/_dm-navigator/_dm-navigator.wxml-->
+<text>pages/components/_dm-navigator/_dm-navigator.wxml</text>
+<view class="navbar" style="height:{{(btn.top - statusHeight) * 2 + btn.height + statusHeight}}px; width:100%; background-color:{{bgColor}}; color:{{fontColor}}">
+    <view class="navbarbox flex-aic" style="width:{{btn.left}}px; margin-top:{{btn.top }}px;">
+      <view class="navbar-left" style="height:{{btn.height}}px; width:{{btn.width}}px; border-radius:{{btn.width / 2}}px;"></view>
+      <view class="navbar-title">{{title}}</view>
+    </view>
+</view>
+
+ <mp-tabbar style="position:fixed;bottom:0;width:100%;left:0;right:0;" list="{{list}}" bindchange="tabChange"></mp-tabbar>
