@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/dmDraw/dmDraw",
+    "pages/dmMusic/dmMusic",
+    "pages/dmElse/dmElse"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0075a9",
+    "navigationBarTitleText": "大米工作室",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}
